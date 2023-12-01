@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>type of forms</title>
+    <style>
+        body{
+            background-image: url(C:\Users\Hamid Jafari\Desktop\image.car.jpeg);
+            width: 1000px;
+            
+        }
+        form{
+            background-color: rgb(128, 105, 159) ;
+            width: 500px;
+            opacity: 0.9px;
+            height: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px;
+            padding-left: ;
+        }
+        /*
+        input[type="text"] {
+            background-color: brown;
+        }*/
+        
+        div{
+            padding-left: 150px;
+            padding-top: 5px;
+            
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        
+            <label for="Search">Search</label>
+            <input type="search" id="search" name="search">
+            <input type="submit" value="submit">
+        
+        <div>
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname">
+            <br>
+            <br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname">
+            <br>
+            <label for="email">Email Adress:</label><br>
+            <input type="email" id="email" name="email">
+        </div>
+        <div>
+            <label for="user name">User Name:</label><br>
+            <input type="text" id="username" name="username"><br>
+            <label for="psw">Pasword:</label><br>
+            <input type="password" id="Pasword" name="password"><br>
+        </div>
+        <div>
+            <p>which Language do you like?</p>
+            <input type="radio" id="html" name="fav-language" value="Html">
+            <label for="">HTML</label><br>
+            
+            <input type="radio" id="CSS" name="CSS" value="CSS">
+            <label for="">CSS</label><br>
+            
+            <input type="radio" id="java" name="java" value="java">
+            <label for="">JavaScrap</label><br>
+        </div>
+        <div>
+            <p>Which kind of the blow list do you have?</p>
+           <input type="checkbox" id="checkbox" name="checkbox">
+           <label for="">A Lot </label><br>
+           
+           <input type="checkbox" id="checkbox" name="checkbox">
+           <label for="">so so</label><br>
+           
+           <input type="checkbox" id="checkbox" name="checkbox">
+           <label for="">a little</label><br>
+        </div>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset"> <br>
+            <input type="button" onclick="alert('شما موفقانه وارد سامانه درسی حمید جعفری شدید..)')" value="Click Me!">
+
+            <div>
+            <label for="favcolor">select yor Favarite Color</label>
+            <input type="color" id="favecolor" name="favecolor" value="#ff0000">
+            </div>
+
+            <div>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday">
+            </div>
+
+            <div>
+                <input type="image" src="C:\Users\Hamid Jafari\Desktop\image.car.jpeg" alt="gooo" width="40px" height="40px">
+            </div>
+            <div>
+                <label for="Myfile">Select your File</label>
+                <input type="file" id="myfile" name="myfile">
+            </div>
+
+    </form>
+</body>
+</html>
